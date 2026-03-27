@@ -1290,4 +1290,38 @@ input[type="text"] {
   opacity: 0;
 }
 
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #25D366;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 28px; /* slightly better fit */
+  line-height: 1;  /* important */
+  
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+  z-index: 100;
+  transition: 0.3s ease-in-out;
+}
+
+.whatsapp-float i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whatsapp-float:hover {
+  background-color: #1ebe5d;
+  transform: scale(1.1);
+}
+
+
 /*# sourceMappingURL=style.css.map */
